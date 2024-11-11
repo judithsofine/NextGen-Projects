@@ -1,0 +1,101 @@
+body {
+    font-family: arial, sans-serif;
+    color: black;
+    background-color: peachpuff;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+.form {
+    display: block;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow 0 0 10px rgba (0, 0, 0, 0.1)
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.firstname {
+    width: 180px;
+    height: 50px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+}
+
+.lastname {
+    width: 180px;
+    height: 50px;
+    margin-bottom: 21px;
+
+    border-radius: 5px;
+}
+
+.age {
+    width: 180px;
+    height: 50px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+}
+
+.school {
+    width: 180px;
+    height: 50px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+}
+
+.occupation {
+    width: 180px;
+    height: 50px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+}
+
+.email {
+    width: 180px;
+    height: 50px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+}
+
+.password {
+    width: 180px;
+    height: 50px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+}
+
+
+.submit {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    background-color: pink;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input [type="submit"
+]:hover background-color: green;
